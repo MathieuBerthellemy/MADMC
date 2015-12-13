@@ -12,33 +12,47 @@ class Voiture:
 
 	def __init__(self, nom, puissance, couple, poids, acceleration, prix, pollution):
 		self.nom = nom
-		self.puissance = puissance
-		self.couple = couple
-		self.poids = poids
+		self.puissance = int(puissance)
+		self.couple = int(couple)
+		self.poids = int(poids)
 
 		s, ms = acceleration.split('"')
-		self.acceleration = (s, ms)
+		self.acceleration = (int(s), int(ms))
 
-		self.prix = prix
-		self.pollution = pollution
+		self.prix = int(prix)
+		self.pollution = int(pollution)
 
 	def format_puissance(self):
-		return self.puissance+"ch"
+		return "".join([str(self.puissance), "ch"])
 
 	def format_couple(self):
-		return self.couple+"nm"
+		return "".join([str(self.couple), "nm"])
 
 	def format_poids(self):
-		return self.poids+"Kg"
+		return "".join([str(self.poids), "Kg"])
 
 	def format_acceleration(self):
-		return self.acceleration[0]+ '"'+ self.acceleration[1]
+		return "".join([str(self.acceleration[0]), '"', str(self.acceleration[1])])
+
+	def get_float_acceleration(self):
+		return self.acceleration[0]+self.acceleration[1]/10
 
 	def format_prix(self):
-		return self.prix+"€"
+		return "".join([str(self.prix), "€"])
 
 	def format_pollution(self):
-		return self.pollution+"g/km"
+		return "".join([str(self.pollution), "g/km"])
 
 	def vectorize(self):
-		return (self.puissance, self.couple, self.poids, self.acceleration, self.prix, self.pollution)
+		return [self.puissance, self.couple, self.poids, self.get_float_acceleration(), self.prix, self.pollution]
+
+	def to_string(self):
+		print(self.nom)
+		print("1/ "+ self.format_puissance())
+		print("2/ "+ self.format_couple())
+		print("3/ "+ self.format_poids())
+		print("4/ "+ self.format_acceleration())
+		print("5/ "+ self.format_prix())
+		print("6/ "+ self.format_pollution())
+
+
