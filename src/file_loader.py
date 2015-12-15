@@ -1,8 +1,7 @@
 import csv
 import tkinter as tk
 from tkinter import filedialog, Tk, Label
-from Voiture import *
-
+from Data import *
 
 def load_file(path):
 	output = []
