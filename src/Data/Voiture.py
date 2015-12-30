@@ -38,7 +38,7 @@ class Voiture:
 		return self.acceleration[0]+self.acceleration[1]/10
 
 	def format_prix(self):
-		return "".join([str(self.prix), "€"])
+		return "".join([str(self.prix), "euro"])
 
 	def format_pollution(self):
 		return "".join([str(self.pollution), "g/km"])

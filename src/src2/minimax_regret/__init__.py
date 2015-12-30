@@ -1,0 +1,1 @@
+from src2.minimax_regret.max_regret import *

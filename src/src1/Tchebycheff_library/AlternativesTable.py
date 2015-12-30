@@ -1,5 +1,4 @@
-from Tchebycheff_library.Opt import *
-
+from src1.Tchebycheff_library.Opt import *
 class AlternativesTable:
 	"""
 		Attributes:

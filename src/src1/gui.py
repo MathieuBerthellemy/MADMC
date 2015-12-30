@@ -24,9 +24,10 @@ class gui:
 
 	def maj(self):
 		try:
-			path = ("res/"+self.voiture.nom+".png").replace(" ", "_")
+			path = ("test.jpg")
 			print(path)
 			photo = PhotoImage(file=path)
+
 
 			self.l_image.config(image=photo)
 		except:

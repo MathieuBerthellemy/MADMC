@@ -1,6 +1,4 @@
-
-from Tchebycheff_library.Opt import *
-
+from src1.Tchebycheff_library.Opt import *
 class SelectorTchebycheff:
 	"""
 		Attributes:
@@ -19,8 +17,7 @@ class SelectorTchebycheff:
 		self.bounds = self.table.get_extremum_ideal()
 
 	def get_balanced_solution(self):
-		nadir = self._get_nadir()
-		ideal = self._get_ideal()
+		ideal, nadir = self._get_ideal_nadir()
 
 		omega = [x - y for x, y in zip(nadir, ideal)]
 		epsilon = 0.0001
@@ -45,9 +42,9 @@ class SelectorTchebycheff:
 				- epsilon: facteur d'approximation
 
 			Output:
-				- id de l'alternative la plus proche du point idéal en suivant la direcion d'optimisation
+				- id de l'alternative la plus proche du point ideal en suivant la direcion d'optimisation
 
-			Utilisation de la norme de Tchebycheff augmentée
+			Utilisation de la norme de Tchebycheff augmentee
 		"""
 		output = None
 		best_val = 99999
@@ -62,46 +59,29 @@ class SelectorTchebycheff:
 
 
 
-	def _get_nadir(self):
+	def _get_ideal_nadir(self):
 		"""
 			Output:
-				- point Nadir
+				- point ideal, point Nadir
 		"""
-
-		output = self.table.get_extremum_nadir();
+		ideal = self.table.get_extremum_ideal();
+		nadir = self.table.get_extremum_nadir();
 		
 		for key, value in self.table.get_available_rows(self.bounds).items():
 		
-			for i in range(len(output)):
+			for i in range(len(self.bounds)):
 			
 				if self.table.direction[i] == Opt.MIN:
-					output[i] = max(output[i], value[i]);
+					nadir[i] = max(nadir[i], value[i]);
+					ideal[i] = min(ideal[i], value[i]);
 
 				if self.table.direction[i] == Opt.MAX:
-					output[i] = min(output[i], value[i]);
+					nadir[i] = min(nadir[i], value[i]);
+					ideal[i] = max(ideal[i], value[i]);
 				
 		
-		return output;
+		return ideal, nadir;
 		
 
-	def _get_ideal(self):
-		"""
-			Output:
-				- point ideal
-		"""
-
-		output = self.table.get_extremum_ideal();
-		
-		for key, value in self.table.get_available_rows(self.bounds).items():
-		
-			for i in range(len(output)):
-			
-				if self.table.direction[i] == Opt.MIN:
-					output[i] = min(output[i], value[i]);
-
-				if self.table.direction[i] == Opt.MAX:
-					output[i] = max(output[i], value[i]);
-		
-		return output;
 
 		

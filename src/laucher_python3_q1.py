@@ -1,8 +1,6 @@
-from Tchebycheff_library import *
-from Interactors import *
+from src1 import *
 from Data import *
 from file_loader import *
-from gui import *
 
 def fill_table(voitures, table):
 	i = 0
@@ -11,11 +9,14 @@ def fill_table(voitures, table):
 		i += 1
 
 
-def lauch1(voitures, selector):
+def lauch1(voitures):
+	selector = SelectorTchebycheff(table)
 	gui(voitures, selector)
 
-def lauch2(voitures, selector):
+def lauch2(voitures):
 	#path = filedialog.askopenfilename(filetypes=[("Textfiles","*.csv")])
+	interactor = Interactor_human()
+	selector = SelectorTchebycheff(table)
 	ok = False
 	while not ok:
 		idbest = selector.get_balanced_solution()
@@ -44,12 +45,11 @@ def lauch2(voitures, selector):
 
 				selector.cut(c-1, bound)
 		else:
-			print("plus de solution trouvée")
+			print("plus de solution trouvee")
 			break
 
 	else:
 		print("fail")
-
 
 
 path = "data.csv"
@@ -57,8 +57,6 @@ if path:
 	voitures = load_file(path)
 	table = AlternativesTable(("puissance", Opt.MAX), ("couple", Opt.MAX), ("poids", Opt.MIN), ("acceleration", Opt.MIN), ("prix", Opt.MIN), ("pollution", Opt.MIN))
 	fill_table(voitures, table);
-	selector = SelectorTchebycheff(table)
-	interactor = Interactor_human()
 
-	lauch1(voitures, selector)
+	lauch1(voitures)
 
