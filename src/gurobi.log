@@ -1353,3 +1353,1748 @@ Gurobi 6.0.5 (mac64) logging started Wed Dec 30 11:05:29 2015
 
 Gurobi 6.0.5 (mac64) logging started Wed Dec 30 11:05:42 2015
 
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:15:00 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:16:25 2015
+
+Warning: constraint name "r < f(y1) - f(x)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:16:31 2015
+
+Warning: constraint name "r < f(y0) - f(x)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:16:40 2015
+
+Warning: constraint name "r < f(y1) - f(x)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:17:54 2015
+
+Warning: constraint name "r < f(y1) - f(x)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:18:02 2015
+
+Warning: constraint name "r < f(y0) - f(x)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:18:54 2015
+
+Warning: constraint name "r < f(y0) - f(x)" has a space
+Optimize a model with 20 rows, 7 columns and 123 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 123 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2800000e+32   2.820313e+30   1.280000e+02      0s
+       9    9.7932083e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.00 seconds
+Optimal objective  9.793208349e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:19:00 2015
+
+Warning: constraint name "r < f(y0) - f(x)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 135 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.1920000e+33   8.250000e+30   8.192000e+03      0s
+       4    3.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.000000000e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:19:08 2015
+
+Warning: constraint name "r < f(y0) - f(x)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.5600000e+32   1.757813e+30   2.560000e+02      0s
+       3    1.4638844e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  1.463884430e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:19:25 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:20:18 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:20:31 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:20:53 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:21:20 2015
+
+Warning: constraint name "r < f(y0) - f(x)" has a space
+Optimize a model with 21 rows, 7 columns and 143 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 143 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.5600000e+32   1.757813e+30   2.560000e+02      0s
+       3    1.4638844e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  1.463884430e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:24:04 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:24:26 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Ford Fiesta 1.0 Ecoboost)" has a space
+Optimize a model with 21 rows, 7 columns and 143 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 143 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.5600000e+32   1.757813e+30   2.560000e+02      0s
+       3    1.4638844e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  1.463884430e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:26:48 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Audi S1 Quattro)" has a space
+Optimize a model with 21 rows, 7 columns and 143 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 143 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+
+Solved in 5 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:26:50 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Audi S1 Quattro)" has a space
+Optimize a model with 21 rows, 7 columns and 143 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 143 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+
+Solved in 5 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:26:58 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Audi S1 Quattro)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:27:06 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 21 rows, 7 columns and 141 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:27:44 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 21 rows, 7 columns and 141 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:27:50 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 21 rows, 7 columns and 141 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:28:04 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 21 rows, 7 columns and 141 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:29:27 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 21 rows, 7 columns and 141 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:30:09 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 21 rows, 7 columns and 141 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:30:18 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 21 rows, 7 columns and 141 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:30:29 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 21 rows, 7 columns and 141 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:30:43 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 21 rows, 7 columns and 141 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:30:58 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 21 rows, 7 columns and 141 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:31:07 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:31:19 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 21 rows, 7 columns and 141 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:31:27 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Audi S1 Quattro)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:31:33 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Abarth 595 Competizione)" has a space
+Optimize a model with 20 rows, 7 columns and 123 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 123 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2800000e+32   2.820313e+30   1.280000e+02      0s
+       9    9.7932083e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.00 seconds
+Optimal objective  9.793208349e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:31:39 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Abarth 695 Biposto)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 135 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.1920000e+33   8.250000e+30   8.192000e+03      0s
+       4    3.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.000000000e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:32:00 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Abarth 695 Biposto)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 135 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.1920000e+33   8.250000e+30   8.192000e+03      0s
+       4    3.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.000000000e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:32:32 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Abarth 695 Biposto)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 135 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.1920000e+33   8.250000e+30   8.192000e+03      0s
+       4    3.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.000000000e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:32:54 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Abarth 695 Biposto)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 135 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.1920000e+33   8.250000e+30   8.192000e+03      0s
+       4    3.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.000000000e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:33:39 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Abarth 695 Biposto)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 135 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.1920000e+33   8.250000e+30   8.192000e+03      0s
+       4    3.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.000000000e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:34:31 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Abarth 695 Biposto)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 135 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.1920000e+33   8.250000e+30   8.192000e+03      0s
+       4    3.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.000000000e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:34:36 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Abarth 695 Biposto)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 135 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.1920000e+33   8.250000e+30   8.192000e+03      0s
+       4    3.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.000000000e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:35:51 2015
+
+Warning: constraint name "r < f(Alfa Roméo MiTo QV) - f(Abarth 695 Biposto)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 135 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.1920000e+33   8.250000e+30   8.192000e+03      0s
+       4    3.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.000000000e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:37:14 2015
+
+Warning: constraint name "r < f(Audi S1 Quattro) - f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:38:03 2015
+
+Warning: constraint name "r<f(Audi S1 Quattro)-f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:39:27 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:39:58 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 23 rows, 7 columns and 153 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 23 rows, 7 columns, 153 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       5   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:41:01 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 23 rows, 7 columns and 153 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 23 rows, 7 columns, 153 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:41:30 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 22 rows, 7 columns and 149 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 143 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0020000e+00   4.050269e-02   0.000000e+00      0s
+       6   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 6 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:42:45 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Abarth 595 Competizione)" has a space
+Optimize a model with 22 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 129 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.0040000e+00   5.623853e-02   0.000000e+00      0s
+       6   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 6 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:42:50 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 22 rows, 7 columns and 149 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 143 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0020000e+00   4.050269e-02   0.000000e+00      0s
+       6   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 6 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:42:57 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 21 rows, 7 columns and 143 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 143 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       6   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 6 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:43:03 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:44:19 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:44:35 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:45:18 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 21 rows, 7 columns and 143 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 143 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       6   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 6 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:45:32 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:45:55 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 21 rows, 7 columns and 143 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 143 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       6   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 6 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:46:01 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 21 rows, 7 columns and 143 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 143 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:46:13 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 21 rows, 7 columns and 143 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 21 rows, 7 columns, 143 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       6   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 6 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:46:31 2015
+
+Warning: constraint name "r<f(Audi S1 Quattro)-f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:48:00 2015
+
+Warning: constraint name "r<f(Audi S1 Quattro)-f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:48:49 2015
+
+Warning: constraint name "r<f(Audi S1 Quattro)-f(Alfa Roméo MiTo QV)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:50:07 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Opel Corsa (E) OPC)" has a space
+Optimize a model with 20 rows, 7 columns and 126 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 6 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:50:12 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Opel Adam S)" has a space
+Optimize a model with 20 rows, 7 columns and 134 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:50:17 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:50:21 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Abarth 595 Competizione)" has a space
+Optimize a model with 20 rows, 7 columns and 123 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 123 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2800000e+32   2.820313e+30   1.280000e+02      0s
+       9    9.7932083e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.00 seconds
+Optimal objective  9.793208349e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:50:27 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Abarth 695 Biposto)" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 135 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.1920000e+33   8.250000e+30   8.192000e+03      0s
+       4    3.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.000000000e+01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:50:31 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Mini Cooper S JCW)" has a space
+Optimize a model with 20 rows, 7 columns and 126 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 6 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:50:36 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Peugeot 208 GTI)" has a space
+Optimize a model with 20 rows, 7 columns and 123 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 123 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.4000000e+31   2.402344e+30   6.400000e+01      0s
+       9    2.8325497e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.00 seconds
+Optimal objective  2.832549661e-01
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:50:40 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Mini Cooper S JCW)" has a space
+Optimize a model with 20 rows, 7 columns and 126 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 6 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:54:29 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Mini Cooper S JCW)" has a space
+
+Gurobi 6.0.5 (mac64) logging started Wed Dec 30 22:54:39 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Mini Cooper S JCW)" has a space
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 14:25:14 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Mini Cooper S JCW)" has a space
+Optimize a model with 20 rows, 7 columns and 126 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 6 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 14:25:21 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Audi S1 Quattro)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 14:25:29 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Ford Fiesta 1.0 Ecoboost)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.5600000e+32   1.757813e+30   2.560000e+02      0s
+       3    1.4638844e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  1.463884430e+01
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 14:33:20 2015
+
+Warning: constraint name "r<f(Alfa Roméo MiTo QV)-f(Ford Fiesta 1.0 Ecoboost)" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.5600000e+32   1.757813e+30   2.560000e+02      0s
+       3    1.4638844e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  1.463884430e+01
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 14:33:52 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:19:00 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:19:31 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:19:39 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:19:56 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:20:41 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:23:04 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:24:00 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:24:50 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:24:58 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:25:14 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:27:06 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:28:06 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:34:42 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:34:58 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:35:08 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:35:16 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:35:44 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:36:07 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:36:10 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:36:28 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:36:32 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:36:41 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:38:08 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:40:01 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:40:32 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:40:38 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:41:10 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:41:34 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:42:51 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:43:01 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:43:23 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:44:21 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:44:42 2015
+
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   6.000000e+30   4.096000e+03      0s
+       4    3.2564146e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.256414575e-01
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 123 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 123 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2800000e+32   2.820313e+30   1.280000e+02      0s
+       9    9.7932083e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.00 seconds
+Optimal objective  9.793208349e-01
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 135 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 135 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.1920000e+33   8.250000e+30   8.192000e+03      0s
+       4    3.0000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  3.000000000e+01
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.5600000e+32   1.757813e+30   2.560000e+02      0s
+       3    1.4638844e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  1.463884430e+01
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 128 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 128 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0240000e+33   7.187500e+30   1.024000e+03      0s
+      10    1.6610776e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 10 iterations and 0.00 seconds
+Optimal objective  1.661077629e-01
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 122 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 122 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2800000e+32   2.320313e+30   1.280000e+02      0s
+
+Solved in 6 iterations and 0.00 seconds
+Infeasible model
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 126 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 6 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 134 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 126 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 6 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 123 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 123 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.4000000e+31   2.402344e+30   6.400000e+01      0s
+       9    2.8325497e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.00 seconds
+Optimal objective  2.832549661e-01
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 124 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 3 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 5 columns, 77 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   7.812500e-03   0.000000e+00      0s
+       3   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 6 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 127 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 127 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.4000000e+31   2.402344e+30   6.400000e+01      0s
+      11    1.7272429e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 11 iterations and 0.00 seconds
+Optimal objective  1.727242885e-01
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 125 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 2 rows and 6 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 137 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 137 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.5600000e+32   1.703125e+30   2.560000e+02      0s
+       5    2.2848485e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective  2.284848485e+01
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 121 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 121 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.1200000e+32   3.640625e+30   5.120000e+02      0s
+       6    4.2036440e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 6 iterations and 0.00 seconds
+Optimal objective  4.203644037e-01
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 138 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 138 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.0960000e+33   7.500000e+30   4.096000e+03      0s
+       4    2.4850000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  2.485000000e+03
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 134 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 20 rows, 7 columns, 134 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.1200000e+32   3.328125e+30   5.120000e+02      0s
+       8    1.2395998e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 8 iterations and 0.00 seconds
+Optimal objective  1.239599789e+00
+Warning: constraint name "sum wi = 1" has a space
+Optimize a model with 20 rows, 7 columns and 121 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 10 rows and 6 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible or unbounded model
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:45:30 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:46:27 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:47:18 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:47:59 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:49:24 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:49:45 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:52:10 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 15:58:21 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:00:22 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:00:50 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:01:05 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:01:29 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:01:55 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:02:09 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:02:22 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:02:55 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:03:12 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:03:26 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:03:49 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:05:17 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:05:22 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:05:46 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:06:24 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:11:33 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:11:56 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:12:17 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:13:05 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:15:14 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:15:21 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:15:35 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:15:55 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:17:29 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:17:52 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:19:31 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:19:53 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:21:22 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:21:29 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:22:35 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:25:50 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:40:33 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:40:37 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:40:59 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:45:46 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 16:46:36 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:34:04 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:34:29 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:34:37 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:34:47 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:55:21 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:57:53 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:58:04 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:58:44 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:58:56 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:59:35 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:59:47 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 17:59:56 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 18:00:07 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 18:00:30 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 18:00:42 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 18:00:59 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 18:01:13 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 19:07:10 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 19:09:21 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 19:09:40 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 19:10:01 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 19:11:12 2015
+
+
+Gurobi 6.0.5 (mac64) logging started Thu Dec 31 19:14:02 2015
+
