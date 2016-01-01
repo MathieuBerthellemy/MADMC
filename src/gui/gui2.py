@@ -182,7 +182,7 @@ class gui2:
 	def __init__(self, voitures, selector):
 		w = Tk()
 		w.resizable(0,0)
-		w.title("MADMC - Car selector")
+		w.title("MADMC - Minmax regret")
 
 		self.voitures = voitures
 		self.selector = selector

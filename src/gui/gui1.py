@@ -9,7 +9,6 @@ class gui1:
 	def solve(self):
 		id_best = self.selector.get_balanced_solution()
 		
-		print(self.selector.bounds)
 		if id_best != None:
 			self.voiture = self.voitures[id_best]
 
@@ -17,7 +16,6 @@ class gui1:
 
 	def click_reset(self):
 		self.selector.reset_bounds()
-	
 		self.solve()
 
 	def click(self, critere, bound):
@@ -106,7 +104,7 @@ class gui1:
 	def __init__(self, voitures, selector):
 		w = Tk()
 		w.resizable(0,0)
-		w.title("MADMC - Car selector")
+		w.title("MADMC - Tchebycheff")
 
 		self.voitures = voitures
 		self.selector = selector

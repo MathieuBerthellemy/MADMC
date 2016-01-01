@@ -1,9 +1,6 @@
-from gui1 import *
-from gui2 import *
-
+from gui import *
 from Data import *
 from file_loader import *
-
 from Selector_library import *
 
 
@@ -36,7 +33,7 @@ def lauch3(voitures, table):
 		Partie 3
 	"""
 	selector = SelectorKnapSack(table)
-	selector.get_solution()
+	gui3(voitures, selector)
 	
 
 
@@ -49,6 +46,6 @@ if path:
 	table.set_col_min(2, 3, 4, 5)
 	fill_table(voitures, table);
 
-	#lauch1(voitures, table)
-	#lauch2(voitures, table)
+	lauch1(voitures, table)
+	lauch2(voitures, table)
 	lauch3(voitures, table)

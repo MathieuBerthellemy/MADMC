@@ -84,12 +84,12 @@ def _add_const_linearisation_max(model, W, r, row, rows):
 			minus = LinExpr();
 			minus.add(_f(W, current_row), 1.0)
 			minus.add(_f(W, row), -1.0)
-			model.addConstr(r <= minus)
+			model.addConstr(r, GRB.LESS_EQUAL, minus)
 
 
 def _add_const_P(model, P, W):
 	for (a, b) in P:
-		model.addConstr(_f(W, a) >= _f(W, b))
+		model.addConstr(_f(W, a), GRB.GREATER_EQUAL, _f(W, b) + 0.00001)
 
 
 def _add_const_sum_W_eq_1(model, W):

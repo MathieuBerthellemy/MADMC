@@ -3,21 +3,20 @@ class SelectorTchebycheff:
 	"""
 		Attributes:
 			- table, AlternativesTable
-			- bounds, list
 
 		Public methods:
 	"""
 
 	def __init__(self, table):
 		self.table = table
-		self.reset_bounds()
-
+		self.table.reset_bounds()
 
 	def reset_bounds(self):
-		self.bounds = self.table.get_extremum_ideal()
+		self.table.reset_bounds()
 
 	def get_balanced_solution(self):
-		ideal, nadir = self.table.get_ideal_nadir(self.bounds)
+
+		ideal, nadir = self.table.get_ideal_nadir()
 
 		omega = [x - y for x, y in zip(nadir, ideal)]
 		epsilon = 0.0001
@@ -25,7 +24,7 @@ class SelectorTchebycheff:
 		return self._get_solution_tchebycheff_augmentee(ideal, omega, epsilon)
 
 	def cut(self, critere, value):
-		self.bounds[critere] = value
+		self.table.set_bounds(critere, value)
 
 	def _s(self, x, x0, omega, epsilon):
 		"""
@@ -49,7 +48,7 @@ class SelectorTchebycheff:
 		output = None
 		best_val = 99999
 
-		for key, value in self.table.get_available_rows(self.bounds).items():
+		for key, value in self.table.get_rows().items():
 			val = self._s(value, x0, omega, epsilon)
 			if val < best_val:
 				output = key
@@ -59,30 +58,6 @@ class SelectorTchebycheff:
 
 
 
-	def _get_ideal_nadir(self):
-		"""
-			Output:
-				- point ideal, point Nadir
-		"""
-		ideal = self.table.get_extremum_ideal();
-		nadir = self.table.get_extremum_nadir();
-		
-		for key, value in self.table.get_available_rows(self.bounds).items():
-		
-			for i in range(len(self.bounds)):
-
-				# MIN
-				if self.table.direction[i] == False:
-					nadir[i] = max(nadir[i], value[i]);
-					ideal[i] = min(ideal[i], value[i]);
-
-				# MAX
-				if self.table.direction[i] == True:
-					nadir[i] = min(nadir[i], value[i]);
-					ideal[i] = max(ideal[i], value[i]);
-				
-		
-		return ideal, nadir;
 		
 
 
