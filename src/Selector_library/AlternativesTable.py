@@ -6,18 +6,18 @@ class AlternativesTable:
 			- direction, list<Bool>
 			- rows, dictionary <ID_key, Tupple>
 			
-			- invalid_rows = Array<int>
-			- invalid_columns = Array<int>
+			- invalid_rows = Array<Integer>
+			- columns_validity = list<Bool>
 			- bounds
 	"""
 
 	def __init__(self, *data):
 		self.header = []
-		self.direction = [False for i in data]
+		self.direction = [False]*len(data)
 		self.rows = {}
 
 		self.invalid_rows = []
-		self.invalid_columns = []
+		self.columns_validity = [True]*len(data)
 
 		for col_name in data:
 			self.header.append(col_name)
@@ -31,18 +31,23 @@ class AlternativesTable:
 	def set_bounds(self, col, bounds):
 		self.bounds[col] = bounds
 
-	def unset_rows(self, key):
+	def unset_row(self, key):
 		self.invalid_rows.append(key)
 
 	def unset_column(self, key):
-		self.invalid_columns.append(key)
+		self.columns_validity[key] = False
+		
+	def set_row(self, key):
+		try:
+			self.invalid_rows.remove(key)
+		except ValueError:
+			pass # or scream: thing not in some_list!
+		except AttributeError:
+			pass # call security, some_list not quacking like a list!
 
-	def set_rows(self, key):
-		self.invalid_rows.remove(key)
 
 	def set_column(self, key):
-		self.invalid_columns.remove(key)
-
+		self.columns_validity[key] = True
 
 
 	def add_row(self, id_key, values):
@@ -51,6 +56,7 @@ class AlternativesTable:
 				values: this list of values to add
 
 		"""
+		
 		if len(values) == len(self.header):
 			self.rows[id_key] = values
 		else:
@@ -82,10 +88,10 @@ class AlternativesTable:
 		for i in range(size):
 			# MIN
 			if self.direction[i] ==  False:
-					output[i] = -99999999;
+					output[i] = float("-inf");
 			# MAX
 			if self.direction[i] ==  True:
-					output[i] = 99999999;
+					output[i] = float("inf");
 
 		return output
 
@@ -96,10 +102,10 @@ class AlternativesTable:
 		for i in range(size):
 			# MIN
 			if self.direction[i] ==  False:
-					output[i] = 99999999;
+					output[i] = float("inf");
 			# MAX
 			if self.direction[i] ==  True:
-					output[i] = -99999999;
+					output[i] = float("-inf");
 
 		return output
 
@@ -112,11 +118,10 @@ class AlternativesTable:
 		ideal = self.get_extremum_ideal();
 		nadir = self.get_extremum_nadir();
 
-		
-
-		for key, value in self.get_rows().items():
+		for key, value in self.rows.items():
 			if key not in self.invalid_rows:
 				for i in range(len(self.header)):
+					
 					# MIN
 					if self.direction[i] == False:
 						nadir[i] = max(nadir[i], value[i]);
@@ -127,11 +132,11 @@ class AlternativesTable:
 						nadir[i] = min(nadir[i], value[i]);
 						ideal[i] = max(ideal[i], value[i]);
 
-				# supprime toute les colonnes non prises en compte
-				indexes = sorted(list(self.invalid_columns), reverse=True)
-				for i in indexes:
-					nadir.pop(i)
-					ideal.pop(i)
+		# # supprime toute les colonnes non prises en compte
+		# indexes = sorted(list(self.invalid_columns), reverse=True)
+		# for i in indexes:
+		# 	nadir.pop(i)
+		# 	ideal.pop(i)
 					
 		return ideal, nadir;
 
@@ -139,26 +144,26 @@ class AlternativesTable:
 
 
 
-	def get_rows(self):
+	def get_rows(self, bounded=True):
 		"""
 			return a dictionary filtred by invalid rows, invalid columns and bounds
 		"""
 		output = {}
 		for key, value in self.rows.items():
 			if key not in self.invalid_rows:
-				
 				# La ligne est-elle valide au sens des bornes
 				valid = True
 				for i in range(len(self.header)):
-					if i not in self.invalid_columns:
-						if (self.direction[i] == False and value[i] >= self.bounds[i]) or (self.direction[i] == True and value[i] <= self.bounds[i]):
-							valid = False
+					if ((self.direction[i] == False and value[i] >= self.bounds[i]) or (self.direction[i] == True and value[i] <= self.bounds[i]) and bounded):
+						valid = False
 
 				if	valid:
-					new_row = []
-					for i in range(len(self.header)):
-						if i not in self.invalid_columns:
-							new_row.append(value[i])
-					output[key] = new_row
+					# new_row = []
+					# for i in range(len(self.header)):
+					# 	if i not in self.invalid_columns:
+					# 		new_row.append(value[i])
+					# output[key] = new_row
+					output[key] = value
 
+		
 		return output

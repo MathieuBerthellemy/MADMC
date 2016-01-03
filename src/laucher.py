@@ -46,6 +46,6 @@ if path:
 	table.set_col_min(2, 3, 4, 5)
 	fill_table(voitures, table);
 
-	lauch1(voitures, table)
-	lauch2(voitures, table)
+	#lauch1(voitures, table)
+	#lauch2(voitures, table)
 	lauch3(voitures, table)
