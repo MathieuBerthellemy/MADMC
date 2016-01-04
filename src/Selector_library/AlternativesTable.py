@@ -110,7 +110,7 @@ class AlternativesTable:
 		return output
 
 
-	def get_ideal_nadir(self):
+	def get_ideal_nadir(self, bounded=True):
 		"""
 			Output:
 				- point ideal, point Nadir
@@ -118,7 +118,10 @@ class AlternativesTable:
 		ideal = self.get_extremum_ideal();
 		nadir = self.get_extremum_nadir();
 
-		for key, value in self.rows.items():
+		
+		set_rows = self.get_rows(bounded)
+
+		for key, value in set_rows.items():
 			if key not in self.invalid_rows:
 				for i in range(len(self.header)):
 					

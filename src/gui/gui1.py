@@ -19,9 +19,7 @@ class gui1:
 		self.solve()
 
 	def click(self, critere, bound):
-
 		self.selector.cut(critere, bound)
-
 		self.solve()
 
 	def maj(self):

@@ -15,7 +15,6 @@ class SelectorTchebycheff:
 		self.table.reset_bounds()
 
 	def get_balanced_solution(self):
-
 		ideal, nadir = self.table.get_ideal_nadir()
 
 		omega = [x - y for x, y in zip(nadir, ideal)]

@@ -101,7 +101,7 @@ def _add_constraints(model, table, X, column_poids):
 
 def _get_constants(table):
 	output = []
-	ideal, nadir = table.get_ideal_nadir()
+	ideal, nadir = table.get_ideal_nadir(False)
 	
 	omega = [x - y for x, y in zip(nadir, ideal)]
 	epsilon = 0.0000001
