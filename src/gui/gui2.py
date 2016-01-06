@@ -41,6 +41,9 @@ class gui2:
 		master = Frame(w)
 		master.pack()
 
+		title = Label(w, text="MADMC", fg="lightgreen", font="Verdana 50 bold")
+		title.pack(padx=20, pady=(0, 20))
+
 		self.frame1 = LabelFrame(master, text="Description")
 		self.frame1.pack(expand=True, fill='both', padx=20, pady=(10, 20), side=LEFT)
 

@@ -217,8 +217,11 @@ class gui3:
 
 	def _build_interface(self, w):
 
+		title = Label(w, text="MADMC", fg="lightgreen", font="Verdana 50 bold")
+		title.pack(padx=20, pady=(20, 0))
+
 		frame = LabelFrame(w, text="KnapSack description")
-		frame.pack(expand=True, fill='both', padx=30, pady=30, side=LEFT)
+		frame.pack(expand=True, fill='both', padx=30, pady=20, side=LEFT)
 
 		offset = 1
 
@@ -228,7 +231,7 @@ class gui3:
 		column_opt = 3
 		column_label = 2
 		column_button = 1
-		column_check_box =0
+		column_check_box = 0
 
 		#CHECK BOX
 		cb_puissance = Checkbutton(frame, variable=self.deal_with_puissance, command=self.click_cb)
