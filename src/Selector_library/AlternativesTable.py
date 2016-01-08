@@ -110,37 +110,67 @@ class AlternativesTable:
 		return output
 
 
+	def get_EC(self, bounded):
+		"""
+			Retourne l'enveloppe convexe des donnees
+		"""
+		EC = [[] for i in range(len(self.header))]
+		ideal = self.get_extremum_ideal()
+
+		rows_set = self.get_rows(bounded)
+
+		for key, value in rows_set.items():
+			if key not in self.invalid_rows:
+				for i in range(len(self.header)):
+					# MIN
+					if self.direction[i] == False:
+						if value[i] < ideal[i]:
+							ideal[i] = value[i]
+							EC[i] = value	
+
+					# MAX
+					if self.direction[i] == True:
+						if value[i] > ideal[i]:
+							ideal[i] = value[i]
+							EC[i] = value		
+
+		return EC
+						
+
+
+
 	def get_ideal_nadir(self, bounded=True):
 		"""
 			Output:
-				- point ideal, point Nadir
+				- point ideal, point Nadir approché
 		"""
 		ideal = self.get_extremum_ideal();
 		nadir = self.get_extremum_nadir();
 
+		# Enveloppe concave
+		EC = self.get_EC(bounded)
 		
-		set_rows = self.get_rows(bounded)
+		for c in range(len(self.header)):
+		
+			# MIN
+			if self.direction[c] == False:
+				print([EC[c] for ec in EC])
+				ideal[c] = min(ec[c] for ec in EC)
+				nadir[c] = max(ec[c] for ec in EC)
 
-		for key, value in set_rows.items():
-			if key not in self.invalid_rows:
-				for i in range(len(self.header)):
-					
-					# MIN
-					if self.direction[i] == False:
-						nadir[i] = max(nadir[i], value[i]);
-						ideal[i] = min(ideal[i], value[i]);
-
-					# MAX
-					if self.direction[i] == True:
-						nadir[i] = min(nadir[i], value[i]);
-						ideal[i] = max(ideal[i], value[i]);
+			# MAX
+			if self.direction[c] == True:
+				ideal[c] = max(ec[c] for ec in EC)
+				nadir[c] = min(ec[c] for ec in EC)
 
 		# # supprime toute les colonnes non prises en compte
 		# indexes = sorted(list(self.invalid_columns), reverse=True)
 		# for i in indexes:
 		# 	nadir.pop(i)
 		# 	ideal.pop(i)
-					
+
+		print "ideal", ideal
+		print "nadir", nadir
 		return ideal, nadir;
 
 
