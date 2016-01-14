@@ -64,11 +64,17 @@ class AlternativesTable:
 
 
 	def set_col_max(self, *col_numbers):
+		"""
+			definit les colonnes donnees en parametre comme des colonnes de maximisation
+		"""
 		for column in col_numbers:
 			self.direction[column] = True
 		self.bounds = self.get_extremum_ideal()
 
 	def set_col_min(self, *col_numbers):
+		"""
+			definit les colonnes donnees en parametre comme des colonnes de minimisation
+		"""
 		for column in col_numbers:
 			self.direction[column] = False
 		self.bounds = self.get_extremum_ideal()
@@ -82,6 +88,9 @@ class AlternativesTable:
 		return len(self.rows)
 
 	def get_extremum_nadir(self):
+		"""
+			retourne les valeurs infinies pour chaque critere (-inf si min, inf si max)
+		"""
 		output = [0]*len(self.header)
 		size = len(self.header)
 		
@@ -96,6 +105,9 @@ class AlternativesTable:
 		return output
 
 	def get_extremum_ideal(self):
+		"""
+			retourne les valeurs infinies pour chaque critere (-inf si max, inf si min)
+		"""
 		output = [0]*len(self.header)
 		size = len(self.header)
 		
@@ -118,7 +130,7 @@ class AlternativesTable:
 		ideal = self.get_extremum_ideal()
 
 		rows_set = self.get_rows(bounded)
-
+		
 		for key, value in rows_set.items():
 			if key not in self.invalid_rows:
 				for i in range(len(self.header)):
@@ -142,7 +154,7 @@ class AlternativesTable:
 	def get_ideal_nadir(self, bounded=True):
 		"""
 			Output:
-				- point ideal, point Nadir approché
+				- point ideal, point Nadir approche
 		"""
 		ideal = self.get_extremum_ideal();
 		nadir = self.get_extremum_nadir();
@@ -150,24 +162,24 @@ class AlternativesTable:
 		# Enveloppe concave
 		EC = self.get_EC(bounded)
 		
-		for c in range(len(self.header)):
-		
-			# MIN
-			if self.direction[c] == False:
-				print([EC[c] for ec in EC])
-				ideal[c] = min(ec[c] for ec in EC)
-				nadir[c] = max(ec[c] for ec in EC)
+		if len(EC[0]) > 0:
+			for c in range(len(self.header)):
+			
+				# MIN
+				if self.direction[c] == False:
+					ideal[c] = min(ec[c] for ec in EC)
+					nadir[c] = max(ec[c] for ec in EC)
 
-			# MAX
-			if self.direction[c] == True:
-				ideal[c] = max(ec[c] for ec in EC)
-				nadir[c] = min(ec[c] for ec in EC)
+				# MAX
+				if self.direction[c] == True:
+					ideal[c] = max(ec[c] for ec in EC)
+					nadir[c] = min(ec[c] for ec in EC)
 
-		# # supprime toute les colonnes non prises en compte
-		# indexes = sorted(list(self.invalid_columns), reverse=True)
-		# for i in indexes:
-		# 	nadir.pop(i)
-		# 	ideal.pop(i)
+			# # supprime toute les colonnes non prises en compte
+			# indexes = sorted(list(self.invalid_columns), reverse=True)
+			# for i in indexes:
+			# 	nadir.pop(i)
+			# 	ideal.pop(i)
 
 		print "ideal", ideal
 		print "nadir", nadir

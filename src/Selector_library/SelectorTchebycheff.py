@@ -12,21 +12,32 @@ class SelectorTchebycheff:
 		self.table.reset_bounds()
 
 	def reset_bounds(self):
+		"""
+			Reinitialise les bornes
+		"""
 		self.table.reset_bounds()
 
 	def get_balanced_solution(self):
+		"""
+			retoune la solution la plus equilibree, (dans les bornes definie)
+		"""
 		ideal, nadir = self.table.get_ideal_nadir()
 
-		omega = [x - y for x, y in zip(nadir, ideal)]
+		alpha = 1/float(len(self.table.header))
+		omega = [alpha/abs(x - y) if abs(x - y) != 0 else 0 for x, y in zip(nadir, ideal)]
 		epsilon = 0.0001
 
 		return self._get_solution_tchebycheff_augmentee(ideal, omega, epsilon)
 
 	def cut(self, critere, value):
+		"""
+			coupe l'espace des solution (definie les bornes)
+		"""
 		self.table.set_bounds(critere, value)
 
 	def _s(self, x, x0, omega, epsilon):
 		"""
+			distance de Tchebycheff
 			s(x, x0, w) = max{wi|xi - x0|} + e*sum(wi|xi - x0|)
 		"""
 		tmp = [abs(i - j)*w for i, j, w in zip(x, x0, omega)]

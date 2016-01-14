@@ -113,7 +113,6 @@ class gui3:
 
 
 	def solve(self):
-
 		try:
 			solution = self.selector.get_solution(self.column_weight.get())
 			self.knapsack = []

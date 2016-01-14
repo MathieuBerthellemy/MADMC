@@ -112,7 +112,7 @@ def _f(W, x, nadir, ideal):
 	obj = LinExpr();
 
 	for i in range(len(x)):
-		coeff = x[i]/float((abs(nadir[i]-ideal[i])))
+		coeff = x[i]/float((abs(nadir[i]-ideal[i]))+1)
 		obj.add(W[i], coeff)
 	return obj
 

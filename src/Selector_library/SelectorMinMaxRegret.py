@@ -45,4 +45,6 @@ class SelectorMinMaxRegret:
 				best_row = key
 				regret_minmax = regret_max
 
+		#print regret_minmax
+
 		return best_row

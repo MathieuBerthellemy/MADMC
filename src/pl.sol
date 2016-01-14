@@ -1,5 +1,5 @@
 # Solution for model KnapSack
-# Objective value = 9.9145903644354301e-06
+# Objective value = 9.9154656698346451e-06
 x0 1
 x1 1
 x2 1
@@ -8,8 +8,8 @@ x4 1
 x5 1
 x6 1
 x7 1
-x8 1
-x9 0
+x8 0
+x9 1
 x10 0
 x11 0
 x12 0
